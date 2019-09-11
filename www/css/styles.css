@@ -1,0 +1,31 @@
+ons-page .body {
+	padding: 0px 15px;
+}
+
+ons-button {
+	width: 100px;
+}
+
+ons-icon {
+	font-size: 1rem;
+}
+
+ons-list {
+	margin-bottom: 25px !important;
+}
+
+ons-list ons-icon {
+	color: grey;
+}
+
+.c {
+	text-align: center;
+}
+
+p :last-child {
+	width: calc(100% - 5px);
+	margin-top: 2.5px;
+	padding-left: 5px;
+	border-radius: 5px;
+	background: white;
+}
