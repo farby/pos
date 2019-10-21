@@ -1,31 +1,60 @@
+* {
+    font-family: 'Ubuntu';
+}
+
 ons-page .body {
-	padding: 0px 15px;
+    padding: 0px 15px;
 }
 
 ons-button {
-	width: 100px;
+    width: 100px;
 }
 
 ons-icon {
-	font-size: 1rem;
+    font-size: 1rem;
 }
 
 ons-list {
-	margin-bottom: 25px !important;
+    margin-bottom: 25px !important;
 }
 
 ons-list ons-icon {
-	color: grey;
-}
-
-.c {
-	text-align: center;
+    color: white;
 }
 
 p :last-child {
-	width: calc(100% - 5px);
-	margin-top: 2.5px;
-	padding-left: 5px;
-	border-radius: 5px;
-	background: white;
+    width: calc(100% - 5px);
+    margin-top: 2.5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+ons-card p {
+    margin: 0;
+}
+
+ons-card ons-row {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.list-item--expandable .fab {
+    margin: 0 5%;
+}
+
+.l {
+    text-align: left;
+}
+
+.c {
+    text-align: center;
+}
+
+.r {
+    text-align: right;
+}
+
+.fix {
+    clear: both;
 }
